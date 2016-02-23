@@ -39,47 +39,63 @@
 
     </div>
   </div>
-  
+
   <div class="container">
      <div class="row">
-      <div class="col s12">
+      <div class="col s12 center">
         <div class="card-panel teal">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-          <div class="row">
-	          <form method="get" action="success.jsp" class="col s12 center" id="coffeeForm">
+          <span class="white-text">You can select the number of paragraphs you would like, as well as the size for your paragraphs.</span>
+          
+          <div class="container">
+  	<div class="row">
+  		<div class="col s12">
+	         <form method="get" action="success.jsp" class="col s12 center" id="ipsumForm">
+	            <div class="row">
+
+    						<div class="input-field col s6">
+    						    <select>
+    						      <option value=" " disabled selected>Choose the size of paragraphs</option>
+    						      <option value="small">Small</option>
+    						      <option value="medium">Medium</option>
+    						      <option value="large">Large</option>
+    						    </select>
+    						    <label>Materialize Select</label>
+    						 </div>
+
+      	          			<div class="input-field col s6">
+      						    <select>
+      						      <option value=" " selected>Choose the number of paragraphs</option>
+      						      <option value="1">1</option>
+      						      <option value="2">2</option>
+      						      <option value="3">3</option>
+      						      <option value="4">4</option>
+      						      <option value="5">5</option>
+      						      <option value="6">6</option>
+      						      <option value="7">7</option>
+      						    </select>
+      						    <label>Materialize Select</label>
+      						 </div>
+	          		</div>
 	          		<div class="row">
-	          			<div class="input-field col s6">
-	          				<input type="text" name="coffee-name" required>
-	          				<label>Coffee name</label>
-	          			</div>
-	          			<div class="input-field col s6">
-	          				<input type="text" name="coffee-type" required>
-	          				<label>Coffee type</label>
-	          			</div>
-	          			<p>
-	      					<input name="coffee-options" type="radio" id="option1" value="decaf" required/>
-	      					<label for="option1">Decaf</label>
-	    				</p>
-	          			<p>
-	      					<input name="coffee-options" type="radio" id="option2" value="bold"/>
-	      					<label for="option2">Bold</label>
-	    				</p>
-	    				<p>
-	    					<input type="submit">
-	    				</p>
+  	          	    	<div class="input-field col s12">
+  	          		       <input type="submit">
+	          		    </div>
 	          		</div>
 	          	</form>
-          </div>
-          
-          
-          
-          
+  		</div>
+  	</div>
+  </div>
+
+
+
+
+
         </div>
       </div>
     </div>
   </div>
+
+  
 
 
   <div class="container">
@@ -164,6 +180,6 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+  <script src="js/scripts.js"></script>
   </body>
 </html>
