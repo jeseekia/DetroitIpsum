@@ -39,6 +39,47 @@
 
     </div>
   </div>
+  
+  <div class="container">
+     <div class="row">
+      <div class="col s12">
+        <div class="card-panel teal">
+          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+          <div class="row">
+	          <form method="get" action="success.jsp" class="col s12 center" id="coffeeForm">
+	          		<div class="row">
+	          			<div class="input-field col s6">
+	          				<input type="text" name="coffee-name" required>
+	          				<label>Coffee name</label>
+	          			</div>
+	          			<div class="input-field col s6">
+	          				<input type="text" name="coffee-type" required>
+	          				<label>Coffee type</label>
+	          			</div>
+	          			<p>
+	      					<input name="coffee-options" type="radio" id="option1" value="decaf" required/>
+	      					<label for="option1">Decaf</label>
+	    				</p>
+	          			<p>
+	      					<input name="coffee-options" type="radio" id="option2" value="bold"/>
+	      					<label for="option2">Bold</label>
+	    				</p>
+	    				<p>
+	    					<input type="submit">
+	    				</p>
+	          		</div>
+	          	</form>
+          </div>
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <div class="container">
