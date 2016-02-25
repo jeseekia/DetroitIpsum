@@ -53,19 +53,19 @@
 	            <div class="row">
 
     						<div class="input-field col s6">
-    						    <select>
-    						      <option value=" " disabled selected>Choose the size of paragraphs</option>
-    						      <option value="small">Small</option>
+    						    <select required>
+<!--     						      <option value=" " disabled selected>Choose the size of paragraphs</option>
+ -->    						      <option value="small">Small</option>
     						      <option value="medium">Medium</option>
     						      <option value="large">Large</option>
     						    </select>
-    						    <label>Materialize Select</label>
+    						    <label>Select size of paragraphs</label>
     						 </div>
 
       	          			<div class="input-field col s6">
-      						    <select>
-      						      <option value=" " selected>Choose the number of paragraphs</option>
-      						      <option value="1">1</option>
+      						    <select required>
+<!--       						      <option value=" " selected>Choose the number of paragraphs</option>
+ -->      						      <option value="1">1</option>
       						      <option value="2">2</option>
       						      <option value="3">3</option>
       						      <option value="4">4</option>
@@ -73,7 +73,7 @@
       						      <option value="6">6</option>
       						      <option value="7">7</option>
       						    </select>
-      						    <label>Materialize Select</label>
+      						    <label>Select number of paragraphs</label>
       						 </div>
 	          		</div>
 	          		<div class="row">
