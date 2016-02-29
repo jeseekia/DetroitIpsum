@@ -43,26 +43,26 @@
   <div class="container">
      <div class="row">
       <div class="col s12 center">
-        <div class="card-panel teal">
+        <div class="card-panel light-blue lighten-1">
           <span class="white-text">You can select the number of paragraphs you would like, as well as the size for your paragraphs.</span>
-          
+          <br><br>
           <div class="container">
   	<div class="row">
   		<div class="col s12">
 	         <form method="get" action="success.jsp" class="col s12 center" id="ipsumForm">
 	            <div class="row">
 
-    						<div class="input-field col s6">
+    						<div class="input-field col s6 white-text">
     						    <select required>
 <!--     						      <option value=" " disabled selected>Choose the size of paragraphs</option>
- -->    						      <option value="small">Small</option>
+ -->    						  	  <option value="small">Small</option>
     						      <option value="medium">Medium</option>
     						      <option value="large">Large</option>
     						    </select>
     						    <label>Select size of paragraphs</label>
     						 </div>
 
-      	          			<div class="input-field col s6">
+      	          			<div class="input-field col s6 white-text">
       						    <select required>
 <!--       						      <option value=" " selected>Choose the number of paragraphs</option>
  -->      						      <option value="1">1</option>
