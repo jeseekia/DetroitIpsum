@@ -101,7 +101,7 @@
 <!--   <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
+      <!--   Icon Section   --
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -143,34 +143,34 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">Developer Bio</h5>
+          <p class="grey-text text-lighten-4">Jeseekia got her start in tech as a freelance Frontend Developer, but recently entered a full-time Java Bootcamp to learn the ways of OOP, databases, and software goodness. She is a native Detroiter, involved in the the Detroit tech community as a co-organizer and instructor for Girl Develop It Detroit as well as an instructor for Grand Circus Detroit. Jeseekia is also a senior Mechanical Engineering student at Wayne State University.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Other sites to check out!</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="http://www.metadevgirl.com">Jeseekia's Website</a></li>
+            <li><a class="white-text" href="http://www.gdidetroit.com">Girl Develop It, Detroit</a></li>
+            <li><a class="white-text" href="http://www.grandcircus.co">Grand Circus Detroit</a></li>
+            <!-- <li><a class="white-text" href="#!">Link 4</a></li>-->
           </ul>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!">Detroit Ipsum Twitter</a></li>
+            <li><a class="white-text" href="#!">Detroit Ipsum Repo</a></li>
+            <li><a class="white-text" href="http://www.twitter.com/metadevgirl">Jeseekia's Twitter</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/jeseekiavaughn">Jeseekia's LinkedIn</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a href="http://www.metadevgirl.com">Jeseekia</a> with a side of <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
