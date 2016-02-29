@@ -94,6 +94,18 @@
       </div>
     </div>
   </div>
+  
+  <div class="container light-blue lighten-1">
+  	<div class="row">
+  		<div class="col s12">
+  			<div class="container">
+  				<!-- Implement vertical alignment if possible -->
+  				<p class="white-text center-align" id="ipsum-text"></p>
+  				
+  			</div>
+  		</div>
+  	</div>
+  </div>
 
   
 
