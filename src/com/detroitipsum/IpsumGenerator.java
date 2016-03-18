@@ -20,6 +20,11 @@ public class IpsumGenerator {
 										"Ford", "GM", "Chrysler", "like a rock", "the big three",
 											"Quicken Loans", "Ilitch family"};
 	
+	public String getWords(int numOfWords) {
+			
+		return "";
+	}
+
 	public String buildSentence() {
 		
 		return "";
@@ -27,8 +32,8 @@ public class IpsumGenerator {
 	
 	public String buildParagraph() {
 			
-			return "";
-		}
+		return "";
+	}
 	
 	public String ipsumParagraph() {
 		
