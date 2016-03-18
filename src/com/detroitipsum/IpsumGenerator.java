@@ -14,4 +14,18 @@ package com.detroitipsum;
  */
 public class IpsumGenerator {
 	
+	public String buildSentence() {
+		
+		return "";
+	}
+	
+	public String buildParagraph() {
+			
+			return "";
+		}
+	
+	public String ipsumParagraph() {
+		
+		return "";
+	}
 }
