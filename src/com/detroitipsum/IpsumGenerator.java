@@ -14,6 +14,12 @@ package com.detroitipsum;
  */
 public class IpsumGenerator {
 	
+	private String[] words = {"Detroit","coney dog", "coney island", "People Mover", "Pistons", 
+								"Tigers", "Lions", "rebirth", "motor city","Greektown","Downtown",
+									"Wayne State University", "Corktown","Midtown","New Center","Mexican Town",
+										"Ford", "GM", "Chrysler", "like a rock", "the big three",
+											"Quicken Loans", "Ilitch family"};
+	
 	public String buildSentence() {
 		
 		return "";
