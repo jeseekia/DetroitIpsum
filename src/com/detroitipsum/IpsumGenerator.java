@@ -14,16 +14,20 @@ package com.detroitipsum;
  */
 public class IpsumGenerator {
 	
-	private String[] detroitWords = {"Detroit","coney dog", "coney island", "People Mover", "Pistons", 
+	private static String[] detroitWords = {"Detroit","coney dog", "coney island", "People Mover", "Pistons",
 								"Tigers", "Lions", "rebirth", "motor city","Greektown","Downtown",
 									"Wayne State University", "Corktown","Midtown","New Center","Mexican Town",
 										"Ford", "GM", "Chrysler", "like a rock", "the big three",
 											"Quicken Loans", "Ilitch family"};
 	
-	public String[] getWords(int numOfWords) {
-		String[] words = {""};
+	public static String[] getWords(int numOfWords) {
+		String[] words = new String[numOfWords];
 		//For numOfWords
+		for(int i=0; i<numOfWords; i++) {
 			//get a random word
+			int randomNum = (int) (Math.random()*detroitWords.length);
+			words[i] = detroitWords[randomNum];
+		}
 		
 		//Return the word(s)
 		return words;
