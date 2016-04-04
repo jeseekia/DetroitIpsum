@@ -1,8 +1,17 @@
 package com.detroitipsum;
 
-import org.junit.Test;
+import static org.hamcrest.CoreMatchers.*;
 
 import static org.junit.Assert.*;
+
+import java.util.Arrays;
+
+import org.hamcrest.core.CombinableMatcher;
+
+import org.hamcrest.core.Is;
+import org.hamcrest.core.IsInstanceOf;
+import org.junit.Test;
+
 
 /**
  * Created by Jeseekia on 3/23/16.
@@ -10,8 +19,11 @@ import static org.junit.Assert.*;
 public class IpsumGeneratorTest {
 
     @Test
-    public void testGetWords() throws Exception {
+    public void gettingWordsReturnsANumberOfWords() throws Exception {
+        String[] words;
+        words = IpsumGenerator.getWords(4);
 
+        assertThat(Arrays.asList(words), everyItem(isA(String.class)));
     }
 
     @Test
