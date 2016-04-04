@@ -33,17 +33,45 @@ public class IpsumGenerator {
 		return words;
 	}
 
-	public String buildSentence(int numOfSentences) {
-		
+	public static String buildSentence(String sentenceLength) {
+		int sentenceLengthInt;
+
+		if (sentenceLength.equals("short")){
+			sentenceLengthInt = 7;
+		} else if (sentenceLength.equals("medium")) {
+			sentenceLengthInt = 9;
+		} else if (sentenceLength.equals("long")) {
+			sentenceLengthInt = 11;
+		} else {
+			sentenceLengthInt = 1;
+		}
+
+		String sentence = "";
+
 		//Determine a sentence length between 7-11 words
 		
-		//For numOfSentences
+
 			//Create a sentence string with a numOfWords
+			String[] words = getWords(sentenceLengthInt);
+
+
 			//Capitalize the first letter of the sentence
+			Character.toUpperCase(words[0].charAt(0));
+
+			//Add all words to the sentence variable
+			for(String x: words) {
+				sentence+=x;
+				sentence+=" ";
+			}
+
 			//Add a period to the end of the sentence
+			sentence = sentence.trim();
+			sentence+=". ";
+
+
 		
 		//Return the sentence(s)
-		return "";
+		return sentence;
 	}
 	
 	public String buildParagraph(int numOfParagraphs) {
@@ -52,7 +80,7 @@ public class IpsumGenerator {
 		
 		//For a numOfParagraphs
 			//Build a paragraph with a certain number of sentences
-		
+
 		//Return the paragraph(s)
 			
 		return "";
