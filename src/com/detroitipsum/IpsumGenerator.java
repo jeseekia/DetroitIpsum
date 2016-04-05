@@ -3,6 +3,8 @@
  */
 package com.detroitipsum;
 
+import org.apache.commons.lang3.text.WordUtils;
+
 /**
  * @author Jeseekia
  * 
@@ -56,7 +58,7 @@ public class IpsumGenerator {
 
 
 			//Capitalize the first letter of the sentence
-			Character.toUpperCase(words[0].charAt(0));
+			words[0] = WordUtils.capitalize(words[0]);
 
 			//Add all words to the sentence variable
 			for(String x: words) {
@@ -100,13 +102,15 @@ public class IpsumGenerator {
 		return paragraph;
 	}
 	
-	public String ipsumParagraph(int paragraphSize, int numOfParagraphs) {
-		
+	public static String[] ipsumParagraph(String paragraphSize, int numOfParagraphs) {
+		String[] paragraphs = new String[numOfParagraphs];
 		//For a numOfParagraphs
+		for(int i=0; i<numOfParagraphs; i++) {
 			//Build some ipsum
-		
+			paragraphs[i] = buildParagraph(paragraphSize);
+		}
 		//Return the ipsum
 		
-		return "";
+		return paragraphs;
 	}
 }
