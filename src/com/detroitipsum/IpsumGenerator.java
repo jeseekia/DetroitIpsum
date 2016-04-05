@@ -74,16 +74,30 @@ public class IpsumGenerator {
 		return sentence;
 	}
 	
-	public String buildParagraph(int numOfParagraphs) {
-		
-		//Determine the paragraph size based on numOfParagraphs (small,medium,large)
-		
-		//For a numOfParagraphs
-			//Build a paragraph with a certain number of sentences
+	public static String buildParagraph(String paragraphSize) {
+		String paragraph = "";
 
+		//Determine the paragraph size based on numOfParagraphs (small,medium,large)
+
+		int paragraphSizeInt;
+
+		if (paragraphSize.equals("small")){
+			paragraphSizeInt = 5;
+		} else if (paragraphSize.equals("medium")) {
+			paragraphSizeInt = 7;
+		} else if (paragraphSize.equals("large")) {
+			paragraphSizeInt = 9;
+		} else {
+			paragraphSizeInt = 1;
+		}
+		//For a numOfParagraphs
+		for(int i=0; i<paragraphSizeInt; i++) {
+			//Build a paragraph with a certain number of sentences
+			paragraph += buildSentence("short");
+		}
 		//Return the paragraph(s)
 			
-		return "";
+		return paragraph;
 	}
 	
 	public String ipsumParagraph(int paragraphSize, int numOfParagraphs) {
