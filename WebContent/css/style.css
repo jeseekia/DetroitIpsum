@@ -12,3 +12,30 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.parallax-container {
+    height: 500px;
+}
+.hero
+{
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('../img/detroit-5.jpg');
+    overflow: hidden;
+}
+
+.hero-content
+{
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: 1px 2px 0 #000;
+}

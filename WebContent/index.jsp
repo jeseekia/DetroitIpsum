@@ -29,20 +29,34 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Detroit Ipsum Generator</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A Detroit-themed lorem ipsum generator built with love by a native Detroiter.</h5>
-      </div>
-      <div class="row center">
-        <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
+  <%--<div class="section no-pad-bot" id="index-banner">--%>
+    <%--<div class="container">--%>
+      <%--<br><br>--%>
+      <%--<h1 class="header center orange-text">Detroit Ipsum Generator</h1>--%>
+      <%--<div class="row center">--%>
+        <%--<h5 class="header col s12 light">A Detroit-themed lorem ipsum generator built with love by a native Detroiter.</h5>--%>
+      <%--</div>--%>
+      <%--<div class="row center">--%>
+        <%--<a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>--%>
+      <%--</div>--%>
+      <%--<br><br>--%>
 
+    <%--</div>--%>
+  <%--</div>--%>
+
+<div class="hero parallax-effect">
+    <div class="container">
+        <div class="hero-content animated bounceInDown slow">
+            <h1 class="header center orange-text">Detroit Ipsum Generator</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">A Detroit-themed lorem ipsum generator built with love by a native Detroiter.</h5>
+            </div>
+            <div class="row center">
+                <a href="#" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+            </div>
+        </div>
     </div>
-  </div>
+</div>
 
   <div class="container">
      <div class="row">
