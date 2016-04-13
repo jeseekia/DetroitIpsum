@@ -102,10 +102,11 @@ public class IpsumGenerator {
 		return paragraph;
 	}
 	
-	public static String[] ipsumParagraph(String paragraphSize, int numOfParagraphs) {
-		String[] paragraphs = new String[numOfParagraphs];
+	public static String[] ipsumParagraph(String paragraphSize, String numOfParagraphs) {
+		int intNumOfParagraphs = Integer.parseInt(numOfParagraphs);
+		String[] paragraphs = new String[intNumOfParagraphs];
 		//For a numOfParagraphs
-		for(int i=0; i<numOfParagraphs; i++) {
+		for(int i=0; i<intNumOfParagraphs; i++) {
 			//Build some ipsum
 			paragraphs[i] = buildParagraph(paragraphSize);
 		}
