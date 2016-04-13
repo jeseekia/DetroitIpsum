@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="com.detroitipsum.IpsumGenerator" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -51,11 +52,11 @@
           <div class="container">
   	<div class="row">
   		<div class="col s12">
-	         <form method="get" action="success.jsp" class="col s12 center" id="ipsumForm">
+	         <form method="post" action="index.jsp" class="col s12 center" id="ipsumForm">
 	            <div class="row">
 
     						<div class="input-field col s6 white-text">
-    						    <select required>
+    						    <select name="size" required>
 <!--     						      <option value=" " disabled selected>Choose the size of paragraphs</option>
  -->    						  	  <option value="small">Small</option>
     						      <option value="medium">Medium</option>
@@ -65,7 +66,7 @@
     						 </div>
 
       	          			<div class="input-field col s6 white-text">
-      						    <select required>
+      						    <select name="numParagraphs" required>
 <!--       						      <option value=" " selected>Choose the number of paragraphs</option>
  -->      						      <option value="1">1</option>
       						      <option value="2">2</option>
@@ -96,13 +97,25 @@
       </div>
     </div>
   </div>
-  
+
   <div class="container light-blue lighten-1">
   	<div class="row">
   		<div class="col s12">
   			<div class="container">
-  				<!-- Implement vertical alignment if possible -->
-  				<p class="white-text center-align" id="ipsum-text"></p>
+                <c:if test="${pageContext.request.method=='POST'}">
+                    <%
+                        String[] paragraphs = IpsumGenerator.ipsumParagraph(request.getParameter("size"),request.getParameter("numParagraphs"));
+                        request.setAttribute("paragraphs", paragraphs);
+                    %>
+                    <c:forEach var="paragraph" items="${paragraphs}">
+                        <!-- Implement vertical alignment if possible -->
+                        <p class="white-text center-align" id="ipsum-text">
+                            <c:out value="${paragraph}" />
+
+                        </p>
+                    </c:forEach>
+                </c:if>
+
   				
   			</div>
   		</div>
