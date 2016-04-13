@@ -19,11 +19,11 @@
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Detroit Ipsum</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Detroit Tech Blog</a></li>
+        <%--<li><a href="#">Detroit Tech Blog</a></li>--%>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Detroit Tech Blog</a></li>
+        <%--<li><a href="#">Detroit Tech Blog</a></li>--%>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -171,12 +171,12 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Developer Bio</h5>
-          <p class="grey-text text-lighten-4">Jeseekia got her start in tech as a freelance Frontend Developer, but recently entered a full-time Java Bootcamp to learn the ways of OOP, databases, and software goodness. She is a native Detroiter, involved in the the Detroit tech community as a co-organizer and instructor for Girl Develop It Detroit as well as an instructor for Grand Circus Detroit. Jeseekia is also a senior Mechanical Engineering student at Wayne State University.</p>
+          <p class="grey-text text-lighten-4">Jeseekia got her start in tech as a freelance Frontend Developer, but recently attended a full-time Java Bootcamp to learn the ways of OOP, databases, and software goodness. She is a native Detroiter, involved in the the Detroit tech community as a co-organizer and instructor for Girl Develop It Detroit as well as an instructor and TA for Grand Circus Detroit. Jeseekia is also a senior Mechanical Engineering student at Wayne State University.</p>
 
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Other sites to check out!</h5>
+          <h5 class="white-text">Other sites!</h5>
           <ul>
             <li><a class="white-text" href="http://www.metadevgirl.com">Jeseekia's Website</a></li>
             <li><a class="white-text" href="http://www.gdidetroit.com">Girl Develop It, Detroit</a></li>
@@ -187,8 +187,8 @@
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Detroit Ipsum Twitter</a></li>
-            <li><a class="white-text" href="#!">Detroit Ipsum Repo</a></li>
+            <%--<li><a class="white-text" href="#!">Detroit Ipsum Twitter</a></li>--%>
+            <li><a class="white-text" href="http://www.github.com/jeseekia/detroitipsum">Detroit Ipsum Repo</a></li>
             <li><a class="white-text" href="http://www.twitter.com/metadevgirl">Jeseekia's Twitter</a></li>
             <li><a class="white-text" href="https://www.linkedin.com/in/jeseekiavaughn">Jeseekia's LinkedIn</a></li>
           </ul>
