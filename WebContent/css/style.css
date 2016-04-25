@@ -42,3 +42,8 @@
     text-align: center;
     text-shadow: 1px 2px 0 #000;
 }
+
+/* label color */
+.input-field label {
+    color: #fff;
+}
