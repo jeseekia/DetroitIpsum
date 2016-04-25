@@ -95,9 +95,12 @@
       						 </div>
 	          		</div>
 	          		<div class="row">
-  	          	    	<div class="input-field col s12">
-  	          		       <input type="submit">
-	          		    </div>
+  	          	    	<%--<div class="input-field col s12">--%>
+  	          		       <%--<input type="submit">--%>
+	          		    <%--</div>--%>
+                        <button class="btn waves-effect waves-light orange" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
 	          		</div>
 	          	</form>
   		</div>
