@@ -57,7 +57,7 @@
         </div>
     </div>
 </div>
-
+<br>
   <div class="container">
      <div class="row">
       <div class="col s12 center">
@@ -115,7 +115,6 @@
       </div>
     </div>
   </div>
-
   <div class="container light-blue lighten-1">
   	<div class="row">
   		<div class="col s12">
