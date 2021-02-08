@@ -1,0 +1,37 @@
+nav {
+  width: 100vw;
+  background-color: blue;
+}
+header {
+  width: 100vw;
+  background-color: gray;
+}
+main {
+  width: 100vw;
+  background-color: lightgray;
+}
+.card {
+  width: 80%;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100vw;
+  background-color: orange;
+}
+
+footer p.sign-off {
+  background-color: sienna;
+}
+
+.info-columns {
+  display: inline-block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.wrapping-container {
+  width: 80%;
+  margin: 0 auto;
+}
