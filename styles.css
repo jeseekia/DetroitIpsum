@@ -1,6 +1,31 @@
 nav {
   width: 100vw;
   background-color: blue;
+  color: white;
+}
+
+nav h2 {
+  width: 300px;
+  display: inline;
+}
+
+nav .wrapping-container {
+  position: relative;
+}
+
+nav ul {
+  display: inline;
+  position: absolute;
+  right: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a:link {
+  color: white;
 }
 header {
   width: 100vw;
@@ -21,7 +46,7 @@ footer {
   background-color: orange;
 }
 
-footer p.sign-off {
+.sign-off {
   background-color: sienna;
 }
 
