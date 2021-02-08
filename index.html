@@ -2,66 +2,82 @@
 <html>
   <head>
     <title>Home</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <a href="https://github.com/jeseekia/detroitipsum"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+    <a href="https://github.com/jeseekia/detroitipsum">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png">
+    </a>
     <nav>
-      <h2>Detroit Ipsum</h2>
-      <ul>
-        <li><a href="#">Detroit Tech Blog</a></li>
-        <li><a href="#">Some cool project</a></li>
-      </ul>
+      <div class="wrapping-container">
+        <h2>Detroit Ipsum</h2>
+        <ul>
+          <li><a href="#">Detroit Tech Blog</a></li>
+          <li><a href="#">Some cool project</a></li>
+        </ul>
+      </div>
     </nav>
     <header>
-      <h1>Detroit Ipsum Generator</h1>
-      <p>A Detroit-themed lorem ipsum generator built with love by a native Detroiter.</p>
-      <p>GET STARTED</p>
+      <div class="wrapping-container">
+        <h1>Detroit Ipsum Generator</h1>
+        <p>A Detroit-themed lorem ipsum generator built with love by a native Detroiter.</p>
+        <p>GET STARTED</p>
+      </div>
     </header>
     <main>
-      <p>You can select the number of paragraphs you would like, as well as the size for your paragraphs.</p>
-      <form class="" action="index.html" method="post">
-        <label for="">Select size of paragraphs</label>
-        <select class="" name="">
-          <option value="">small</option>
-          <option value="">medium</option>
-          <option value="">large</option>
-        </select>
-        <label for="">Select number of paragraphs</label>
-        <select class="" name="">
-          <option value="">1</option>
-          <option value="">2</option>
-          <option value="">3</option>
-          <option value="">4</option>
-          <option value="">5</option>
-          <option value="">6</option>
-          <option value="">7</option>
-        </select>
-        <button type="button" name="button">Submit</button>
-      </form>
+      <div class="card">
+        <p>You can select the number of paragraphs you would like, as well as the size for your paragraphs.</p>
+        <form class="" action="index.html" method="post">
+          <label for="">Select size of paragraphs</label>
+          <select class="" name="">
+            <option value="">small</option>
+            <option value="">medium</option>
+            <option value="">large</option>
+          </select>
+          <label for="">Select number of paragraphs</label>
+          <select class="" name="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+          </select>
+          <button type="button" name="button">Submit</button>
+        </form>
+      </div>
     </main>
     <footer>
-      <section>
-        <h3>Developer Bio</h3>
-        <p>Jeseekia codes or something like that.</p>
-      </section>
-      <section>
-        <h3>Other sites!</h3>
-        <ul>
-          <li><a href="#">Jeseekia's website</a></li>
-          <li><a href="#">Girl Develop It, Detroit</a></li>
-          <li><a href="#">FreeCodeCamp</a></li>
-        </ul>
-      </section>
-      <section>
-        <h3>Connect</h3>
-        <ul>
-          <li><a href="#">Repo</a></li>
-          <li><a href="#">Twitch</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">LinkedIn</a></li>
-        </ul>
-      </section>
-      <p>Made by Jeseekia with &hearts; </p>
+      <div class="wrapping-container">
+        <section class="info-columns section-one">
+          <h3>Developer Bio</h3>
+          <p>Jeseekia codes or something like that.</p>
+        </section>
+        <section class="info-columns section-two">
+          <h3>Other sites!</h3>
+          <ul>
+            <li><a href="#">Jeseekia's website</a></li>
+            <li><a href="#">Girl Develop It, Detroit</a></li>
+            <li><a href="#">FreeCodeCamp</a></li>
+          </ul>
+        </section>
+        <section class="info-columns">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="#">Repo</a></li>
+            <li><a href="#">Twitch</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="sign-off">
+        <div class="wrapping-container">
+          <p>Made by Jeseekia with &hearts; </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
