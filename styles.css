@@ -134,13 +134,17 @@ footer {
   align-items: center;
 }
 
+.info-columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .sign-off {
   height: 50px;
   background-color: sienna;
 }
 
-.info-columns {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+.sign-off p {
+  padding: 15px 0;
 }
